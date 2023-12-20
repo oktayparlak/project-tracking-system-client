@@ -1,7 +1,7 @@
 import React from "react";
 
 function StudentPage() {
-  return <div>StudentPage</div>;
+  return <div>Student Page</div>;
 }
 
 export default StudentPage;
