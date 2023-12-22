@@ -19,18 +19,35 @@ main {
   display: flex;
   padding: 20px;
 }
+.section-body{
+  display: grid;
+  place-items: center;
+}
+.left-panel{
+  
+    color: #fff;
+    width: 250px;
+    padding-left: 20px;
+    height: 100vh;
+    background-image: linear-gradient(30deg , #0557db, #5eaef5);
+    border-top-right-radius: 80px;
+    box-sizing: border-box;
+    margin-left: 0; /* Sağa yaslamak için eklenen stil */
+  
+}
 .left-section,
 .right-section {
   box-shadow: 3px 3px 4px #000;
   -moz-box-shadow: 3px 3px 4px #000;
   -webkit-box-shadow: 3px 3px 4px #000;
   display: block;
-  overflow: scroll;
   flex: 1;
   padding: 20px;
+  padding-bottom: 400px;
   font-style: initial;
   margin: 1%;
   border-radius: 8px;
+  
 }
 .left-section {
   background-image: linear-gradient(
