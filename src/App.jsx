@@ -1,6 +1,7 @@
 import LoginPage from "./pages/Login/LoginPage";
 import StudentPage from "./pages/Student/StudentPage";
 import AcademicianPage from "./pages/Academician/AcademicianPage";
+import "./App.css";
 
 import { Routes, Route } from "react-router-dom";
 

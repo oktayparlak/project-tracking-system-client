@@ -26,8 +26,7 @@ a:hover {
 body {
   
   /* display ve place items kısmı loginForm'a aktarılmalı */
-  display: grid;
-  place-items: center; 
+ 
   
   background-image: url("/src/assets/background.png");
   background-repeat: no-repeat;

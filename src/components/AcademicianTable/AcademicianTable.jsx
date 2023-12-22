@@ -13,37 +13,36 @@ function AcademicianTable() {
   }, [contentHeight]);
 
   return (
-    
-    <div className="container ">
+
       <div className="row">
 {/* Sol Panel (Bu kısım eksik ve işlev eklemedim örnek olarak duruyor. ) */}
-<div className="col-md-3 ml-auto">
-  <div className="left-panel">
+<div className="col-md-3 ml-0">
+  <div className="left-panel text-center">
     <br />
     <br />
-    <p className="academician-name" style={{ fontSize: "3em" }}>
+    <p className="academician-name" style={{ fontSize: "2em" }}>
       <i className="fas fa-university"></i> <b>Academician</b>
       <br />
       <br />Mehmet Burkay Kıraç
     </p>
-    <button onClick={() => console.log("Ayarlar tıklandı")}>
-      <i className="fa-sharp fa-solid fa-gear" aria-hidden="true" style={{ fontSize: "1.7em" }}></i>{" "}
-      Ayarlar
-    </button>
-    <button onClick={() => console.log("Çıkış Yap tıklandı")}>
-      <i className="fa-solid fa-right-from-bracket" aria-hidden="true" style={{ fontSize: "1.7em" }}></i>{" "}
-      Çıkış Yap
-    </button>
+   
+   
+    <button
+  onClick={() => console.log("Çıkış Yap tıklandı")}
+  className="btn btn-primary"
+  style={{
+    background: "linear-gradient(30deg, rgba(94, 174, 245, 0.7), #E1DBDB)",
+    border: "none",
+  }}
+>
+  <i className="fa-solid fa-right-from-bracket" aria-hidden="true" style={{ fontSize: "1.7em" }}></i>{" "}
+  Çıkış Yap
+</button>
   </div>
 </div>
 
-
-
-
-
         {/* Sol Bölüm (Left Section) */}
         <div className="left-section">
-          <div className="card-container">
             <div className="card text-center ">
               <div
                 className="card-title bg-primary text-white p-3 rounded fw-bold fs-5"
@@ -66,8 +65,7 @@ function AcademicianTable() {
                       <th scope="col">Başlangıç Tarihi</th>
                       <th scope="col">Proje İsmi</th>
                       <th scope="col">Detaylar</th>
-                    </tr>
-                    
+                    </tr>  
                   </thead>
                   <tbody>
                     <tr>
@@ -86,7 +84,6 @@ function AcademicianTable() {
                   </tbody>
                 </table>
               </div>
-            </div>
           </div>
 
           {/* Sol Bölüm Modal */}
@@ -124,7 +121,6 @@ function AcademicianTable() {
 
         {/* Sağ Bölüm (Right Section) */}
         <div className="right-section">
-          <div className="card-container">
             <div className="card text-center ">
               <div
                 className="card-title bg-primary text-white p-3 rounded fw-bold fs-5"
@@ -138,22 +134,25 @@ function AcademicianTable() {
                 maxHeight: "400px", // Scroll bar için maksimum yükseklik
                 overflowY: contentHeight > 400 ? "scroll" : "auto", // Scrollbar kontrolü
               }}
-              id="cardBody"
-            >
+              id="cardBody" >
+
                 <table className="table">
                   <thead>
-                    <tr>
-                      <th scope="col">Proje ID</th>
+                    <tr>  
                       <th scope="col">Başvuru Tarihi</th>
                       <th scope="col">Proje İsmi</th>
                       <th scope="col">Detaylar</th>
+                      <th scope="col">Durum</th>
                     </tr>
+                    
+                    
                   </thead>
                   <tbody>
                     <tr>
                       <td>Data 1</td>
                       <td>12 / 05 / 23</td>
                       <td>Mobile App</td>
+
                       <td>
                         <i
                           className="fa fa-eye"
@@ -162,11 +161,21 @@ function AcademicianTable() {
                           data-bs-target="#exampleModalRight"
                         />
                       </td>
+
+                      <td>
+        <button type="button" className="btn btn-primary btn-sm">
+          Buton 1
+        </button>
+        <button type="button" className="btn btn-secondary btn-sm">
+          Buton 2
+        </button>
+      </td>
+                      
+                     
                     </tr>
                   </tbody>
                 </table>
               </div>
-            </div>
           </div>
 
           {/* Sağ Bölüm Modal */}
@@ -202,7 +211,7 @@ function AcademicianTable() {
           </div>
         </div>
       </div>
-    </div>
+    
  
 );
   }
