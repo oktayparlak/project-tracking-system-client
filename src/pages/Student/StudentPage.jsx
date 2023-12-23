@@ -1,7 +1,15 @@
 import React from "react";
+import Student from "../../components/Student/Student";
+import "./StudentPage.css";
+import StudentForm from "../../components/StudentForm/StudentForm";
 
 function StudentPage() {
-  return <div>Student Page</div>;
+  return (
+    <>
+      <Student />
+      <StudentForm />
+    </>
+  );
 }
 
 export default StudentPage;
