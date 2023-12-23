@@ -10,6 +10,7 @@ function StudentForm() {
   };
 
   return (
+    <div className="container">
     <form onSubmit={handleSubmit(onSubmit)}>
       <div className="mb-5">
         <label htmlFor="projectName" className="form-label">
@@ -87,6 +88,7 @@ function StudentForm() {
         </button>
       </div>
     </form>
+    </div>
   );
 }
 
