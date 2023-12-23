@@ -17,7 +17,7 @@ function AcademicianTable() {
       <div className="row">
 {/* Sol Panel (Bu kısım eksik ve işlev eklemedim örnek olarak duruyor. ) */}
 <div className="col-md-3 ml-0">
-  <div className="left-panel text-center">
+  <div className="academician-left-panel text-center">
     <br />
     <br />
     <p className="academician-name" style={{ fontSize: "2em" }}>

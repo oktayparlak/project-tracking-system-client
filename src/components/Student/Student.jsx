@@ -8,7 +8,7 @@ function Student() {
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-3 offset-md-0 m-0 p-0">
-            <div className="left-panel text-center">
+            <div className="student-left-panel text-center">
               <br />
               <br />
               <p className="academician-name" style={{ fontSize: "2em" }}>
@@ -88,7 +88,7 @@ function Student() {
                 </table>
               </div>
             </div>
-            <div className=" container mt-3 col-md-7 mt-3 pt-3">
+            <div className=" container mt-3 col-md-7 mt-3 pt-3 mb-3 pb-3">
           <StudentForm />
         </div>
           </div>
