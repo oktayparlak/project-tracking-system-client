@@ -24,11 +24,10 @@ a:hover {
 } 
 
 body {
-  margin: 0;
-  display: grid;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  
+  /* display ve place items kısmı loginForm'a aktarılmalı */
+ 
+  
   background-image: url("/src/assets/background.png");
   background-repeat: no-repeat;
   background-size: cover;
