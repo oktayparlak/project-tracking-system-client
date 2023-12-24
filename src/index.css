@@ -24,10 +24,6 @@ a:hover {
 } 
 
 body {
-  
-  /* display ve place items kısmı loginForm'a aktarılmalı */
- 
-  
   background-image: url("/src/assets/background.png");
   background-repeat: no-repeat;
   background-size: cover;

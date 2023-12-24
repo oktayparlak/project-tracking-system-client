@@ -7,7 +7,7 @@ function StudentPage() {
   return (
     <>
       <Student />
-      <StudentForm />
+      {/* <StudentForm /> */}
     </>
   );
 }

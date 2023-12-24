@@ -15,7 +15,7 @@ body{
   display: grid;
   place-items: center;
 }
-.left-panel {
+.academician-left-panel {
   color: #fff;
   width: 300px;
   padding-left: 20px;
