@@ -20,7 +20,7 @@ function StudentForm() {
           type="text"
           className="form-control"
           id="projectName"
-          placeholder="Project Name"
+          placeholder="Proje İsmi"
           name="projectName"
           {...register("projectName")}
         />
@@ -33,7 +33,7 @@ function StudentForm() {
         <textarea
           className="form-control"
           id="projectDescription"
-          placeholder="Project Description"
+          placeholder="Proje Açıklaması"
           name="projectDescription"
           {...register("projectDescription")}
         ></textarea>

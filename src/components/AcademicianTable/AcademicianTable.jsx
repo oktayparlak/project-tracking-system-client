@@ -21,7 +21,7 @@ function AcademicianTable() {
     <br />
     <br />
     <p className="academician-name" style={{ fontSize: "2em" }}>
-      <i className="fas fa-university"></i> <b>Academician</b>
+      <i className="fas fa-university"></i> <b>Akademisyen</b>
       <br />
       <br />Mehmet Burkay Kıraç
     </p>
@@ -164,10 +164,10 @@ function AcademicianTable() {
 
                       <td>
         <button type="button" className="btn btn-primary btn-sm">
-          Buton 1
+          Kabul Et
         </button>
         <button type="button" className="btn btn-secondary btn-sm">
-          Buton 2
+          Reddet
         </button>
       </td>
                       

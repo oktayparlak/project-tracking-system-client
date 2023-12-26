@@ -7,12 +7,12 @@ function Student() {
     <div>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-3 offset-md-0 m-0 p-0">
+          <div className="col-md-3  offset-md-0 m-0 p-0">
             <div className="student-left-panel text-center">
               <br />
               <br />
               <p className="academician-name" style={{ fontSize: "2em" }}>
-                <i className="fas fa-university"></i> <b>Student</b>
+                <i className="fas fa-university"></i> <b>Öğrenci</b>
                 <br />
                 <br />
                 Mehmet Burkay Kıraç
@@ -39,17 +39,17 @@ function Student() {
 
           <div className="col-md-9">
             <div className="card mt-3">
-              <div className="card-title">My Projects</div>
+              <div className="card-title">Projelerim</div>
               <div className="card-body">
                 <table className="table">
                   <thead>
                     <tr>
-                      <th scope="col">Project ID</th>
-                      <th scope="col">Starting Date</th>
-                      <th scope="col">Project Name</th>
-                      <th scope="col">Consulting Academician</th>
-                      <th scope="col">Approving Situation</th>
-                      <th scope="col">Details</th>
+                      <th scope="col">Proje ID</th>
+                      <th scope="col">Başlangıç Tarihi</th>
+                      <th scope="col">Proje İsmi</th>
+                      <th scope="col">Danışman  Akademisyen</th>
+                      <th scope="col">Onaylanma Durumu</th>
+                      <th scope="col">Detaylar</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -58,7 +58,7 @@ function Student() {
                       <td>12 / 05/ 23</td>
                       <td>AcademicianAndStudentMS</td>
                       <td>Ömür Şahin</td>
-                      <td>Waiting</td>
+                      <td>Bekleniyor</td>
                       <td>
                         <i
                           className="fa fa-eye"
@@ -73,7 +73,7 @@ function Student() {
                       <td>19 / 11/ 23</td>
                       <td>Mobile App</td>
                       <td>Ahmet Nusret Toprak</td>
-                      <td>Waiting</td>
+                      <td>Bekleniyor</td>
                       <td>
                         <i
                           className="fa fa-eye"

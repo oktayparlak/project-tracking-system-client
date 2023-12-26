@@ -43,7 +43,7 @@ function LoginForm() {
                   <input
                     className="form-control"
                     {...register("userNumber")}
-                    placeholder="userNumber"
+                    placeholder="Kullanıcı Numarası"
                   />
                 </div>
                 <div>
@@ -53,7 +53,7 @@ function LoginForm() {
                   <input
                     className="form-control"
                     {...register("password")}
-                    placeholder="password"
+                    placeholder="Şifre"
                   />
                 </div>
                 <div className="m-4">
